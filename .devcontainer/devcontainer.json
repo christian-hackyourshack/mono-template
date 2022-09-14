@@ -24,7 +24,6 @@
     "dotfiles.repository": "christian-hackyourshack/dotfiles",
     "dotfiles.targetPath": "~/.dotfiles",
     "dotfiles.installCommand": "~/.dotfiles/script/bootstrap",
-    "editor.formatOnSave": true,
     "terminal.integrated.defaultProfile.linux": "zsh",
     "terminal.integrated.profiles.linux": {
       "zsh": {
