@@ -1,0 +1,11 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Astro dev server",
+      "type": "node-terminal",
+      "request": "launch",
+      "command": "pnpm dev --filter web"
+    }
+  ]
+}

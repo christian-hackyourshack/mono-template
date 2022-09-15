@@ -2,19 +2,25 @@
   "$schema": "https://json.schemastore.org/tsconfig",
   "display": "Default",
   "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
     "composite": false,
     "declaration": true,
     "declarationMap": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
+    "importsNotUsedAsValues": "error",
     "inlineSources": false,
     "isolatedModules": true,
+    "module": "ES2022",
     "moduleResolution": "node",
     "noUnusedLocals": false,
     "noUnusedParameters": false,
     "preserveWatchOutput": true,
+    "resolveJsonModule": true,
+    "sourceMap": true,
     "skipLibCheck": true,
-    "strict": true
+    "strict": true,
+    "target": "ESNext"
   },
   "exclude": ["node_modules"]
 }
